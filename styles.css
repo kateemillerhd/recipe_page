@@ -9,4 +9,50 @@
     --prep-heading: hsl(332, 51%, 32%);
     --list-item-titles: hsl(30, 10%, 34%);
     --container-bkgd: hsl(30, 18%, 87%);
+    --white: hsl(0, 0%, 100%);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 0 auto;
+    padding: 0;
+    background-color: var(--body-background);
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;   
+    background-color: var(--white);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-inline-start: 25px;
+    margin-inline-end: 10px;
+    font-size: 38px;
+    color: var(--recipe-title);
+}
+
+header p {
+    margin-inline-start: 25px;
+    margin-inline-end: 25px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    color: var(--list-item-titles);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
