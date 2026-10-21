@@ -14,7 +14,6 @@
 
 body {
     display: flex;
-    flex-direction: column;
     min-height: 100vh;
     justify-content: center;
     align-items: center;
@@ -30,6 +29,7 @@ body {
     flex-direction: column;
     width: 100%;   
     background-color: var(--white);
+    align-items: center;
 }
 
 img {
@@ -55,4 +55,34 @@ header p {
     color: var(--list-item-titles);
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.prep-container {
+    background-color: var(--prep-background);
+    width: 85%;
+}
+
+.prep-container p {
+    font-family: "Outfit", sans-serif;
+    color: var(--prep-heading);
+    font-weight: 700;
+    margin-inline-start: 20px;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+}
+
+.prep-times {
+    font-family: "Outfit", sans-serif;
+    margin-inline-end: 50px;
+    color: var(--list-item-titles);
+    letter-spacing: 0.02em;
+}
+
+.prep-times li {
+    margin-block-end: 15px;
+    margin-inline-start: 20px;
+}
+
+strong {
+    font-weight: 800;
 }
