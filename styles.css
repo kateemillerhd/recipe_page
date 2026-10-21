@@ -87,10 +87,6 @@ strong {
     font-weight: 800;
 }
 
-.ingredients-container {
-   border-bottom: 1px solid var(--list-item-titles);
-}
-
 h2 {
     font-family: "Young Serif", serif;
     color: var(--heading-text);
@@ -112,5 +108,30 @@ h2 {
     margin-block-end: 15px;
     letter-spacing: 0.02em;
     color: var(--list-item-titles);
-    margin-inline-start: 20px;
+    margin-inline-start: 10px;
+}
+
+hr {
+    color: var(--list-item-titles);
+    margin-inline-start: 30px;
+}
+
+ol {
+    margin-inline-end: 18px;
+    line-height: 1.3;
+}
+
+ol li {
+    font-family: "Outfit", sans-serif;
+    margin-inline-start: 15px;
+    padding-left: 15px;
+    color: var(--list-item-titles);
+    letter-spacing: 0.02em;
+    margin-block-end: 12px;
+}
+
+ol li::marker {
+    color: var(--heading-text);
+    padding-right: 15px;
+    font-weight: 700;
 }
