@@ -10,7 +10,7 @@
     --list-item-titles: hsl(30, 10%, 34%);
     --container-bkgd: hsl(30, 18%, 87%);
     --white: hsl(0, 0%, 100%);
-    --icm: 2em; 
+    --icm: 2.25em; 
 }
 
 body {
@@ -40,8 +40,10 @@ h1 {
 }
 
 hr {
-    color: var(--list-item-titles);
+    border: none;
+    background-color: lightgray;
     margin-inline-start: var(--icm);
+    height: 1px;
 }
 
 ol {
@@ -159,7 +161,7 @@ h2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 1em 0;
-    border-bottom: 1px solid var(--list-item-titles);
+    border-bottom: 1px solid lightgray;
 }
 
 .nutrition-row:last-child {
